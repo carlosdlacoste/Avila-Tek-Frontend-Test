@@ -9,6 +9,7 @@ import { Popular } from '../components/popular';
 import { Latest } from '../components/latest';
 import { Services } from '../components/services';
 import { Brand } from '../components/brand';
+import { Footer } from '../components/footer';
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ function HomePage() {
         <Services/>
         <Brand/>
       </div>
+      <Footer/>
 
     </>
   );

@@ -9,13 +9,31 @@ export const Categories = () => {
       <div className='text-[#E2081E] w-[640px] uppercase font-["Montserrat"] text-[20px] font-bold'>
         Una gran variedad de categorías
       </div>
-      <div className='grid grid-cols-6 gap-x-[40px] gap-y-[120px] pt-5'>
+      <div className='grid grid-flow-col-dense grid-rows-2 grid-cols-6 gap-x-[40px] gap-y-[12px] pt-5'>
+        <img className='h-[120.434px] w-[120px] flex justify-center' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Perros
+        </div>
+        <img className='h-[120.434px] w-[120px] flex justify-center' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Gatos
+        </div>
         <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Peces
+        </div>
         <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Roedores
+        </div>
         <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Reptiles
+        </div>
         <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-        <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-        <img className='h-[120.434px] w-[120px]' src="https://s3-alpha-sig.figma.com/img/d245/735b/07c2718bcc356b75d2f9d2af2fe76664?Expires=1695600000&Signature=V98li2aL6JpUo13ms28osblU8PRlRVkGlQyFVzYiq-b9G~7vu-0zygJKu9bp7JE~~cRI7sBCxuvEt0qjog2XZPBMxhFbnN9j0XysEtCSYRkwv9KrXdU4k7IO-gui4BoMtz8dFwGIAmiosimWuTu~a69D5wwYO55nGCUAbKj7eK1yLYmmAYGAanntXOAkgo3aRdcsoWlxQDqm0IfiyONvqp1W4ApPjxNDCOESwdvoJ6FweN1uY5MgsqtrSLlMH88fCE7S9DBM~YrePFt-fyNZaMXLBSACmLWJwqoegVF5qd6ExCSt8Ue8rSY0AcXhaiP3kCnveyupkUjgSa2p3IFFbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className='text-[#333] max-h-[50%] flex justify-center'>
+          Placeholder
+        </div>
       </div>
 
     </>

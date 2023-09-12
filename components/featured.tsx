@@ -3,7 +3,7 @@ import React from 'react';
 export const Featured = () => {
   return(
     <>
-      <div className='text-[#867D77] mt-16'>
+      <div className='text-[#867D77] mt-8'>
           Lorem ipsum dolor sit amet.
       </div>
       <div className='text-[#E2081E] w-[640px] uppercase font-["Montserrat"] text-[20px] font-bold'>

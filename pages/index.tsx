@@ -8,6 +8,7 @@ import { Featured } from '../components/featured';
 import { Popular } from '../components/popular';
 import { Latest } from '../components/latest';
 import { Services } from '../components/services';
+import { Brand } from '../components/brand';
 
 function HomePage() {
   return (
@@ -24,6 +25,7 @@ function HomePage() {
         <Popular/>
         <Latest/>
         <Services/>
+        <Brand/>
       </div>
 
     </>

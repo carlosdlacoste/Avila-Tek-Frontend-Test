@@ -4,6 +4,7 @@ import logo from '../public/logo.png';
 import { NavBar } from '../components/navbar';
 import { Carousel } from '../components/carousel';
 import { Categories } from '../components/categories';
+import { Featured } from '../components/featured';
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <Carousel/>
       <div className='container mx-auto'>
         <Categories/>
+        <Featured/>
       </div>
 
     </>

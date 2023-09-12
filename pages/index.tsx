@@ -6,6 +6,7 @@ import { Carousel } from '../components/carousel';
 import { Categories } from '../components/categories';
 import { Featured } from '../components/featured';
 import { Popular } from '../components/popular';
+import { Latest } from '../components/latest';
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
         <Categories/>
         <Featured/>
         <Popular/>
+        <Latest/>
       </div>
 
     </>

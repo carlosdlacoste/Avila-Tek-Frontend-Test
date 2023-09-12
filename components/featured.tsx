@@ -9,7 +9,7 @@ export const Featured = () => {
       <div className='text-[#E2081E] w-[640px] uppercase font-["Montserrat"] text-[20px] font-bold'>
         Productos Destacados
       </div>
-      <div className='flex flex-row py-4 gap-x-[40px]'>
+      <div className='flex flex-row py-4 justify-between'>
         <img className='w-[440px] h-[708px] object-cover' src="https://s3-alpha-sig.figma.com/img/c7ba/fdb6/ced31f22d2f89803a67c6641bd369127?Expires=1695600000&Signature=VcKXOsygCBg-wwda2QKv~fqF3BvDfIXEmsPpzsrS7lWmp8OTT40fUx5emevT3VG5dpbK3nSNvMxDAF1xbucTa6zh~vUH15TCIOFFrxmj2l1n2JYTwJJQSG-73xZD9QdthQUSpGUspiV0O0H0q8LC6gy2ntV9PeLuEXyGxD0sUdYzIDfZ8ZOLafWWdMEnW7n5wwaKVjZ~ZQxra0n0QrwEFgpfFY~qPu5L7MPZEJi97VQhP8z6~lhbL3im8ubEgRZzKe8l-uveInyVYsLRLPg1msuaVLclQ-5ugt~1RGCb69KMfPPjrvVm~RHDu~r2zvMwq48s76aJC-gkZOJA7COJ7w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         <div className='grid grid-cols-3 gap-x-[40px]'>
           <div className='flex flex-col'>

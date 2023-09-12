@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logo from '../public/logo.png';
 import { NavBar } from '../components/navbar';
 import { Carousel } from '../components/carousel';
+import { Categories } from '../components/categories';
 
 function HomePage() {
   return (
@@ -13,7 +14,10 @@ function HomePage() {
 
       <NavBar/>
       <Carousel/>
-      
+      <div className='container mx-auto'>
+        <Categories/>
+      </div>
+
     </>
   );
 }

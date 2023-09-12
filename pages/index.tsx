@@ -5,6 +5,7 @@ import { NavBar } from '../components/navbar';
 import { Carousel } from '../components/carousel';
 import { Categories } from '../components/categories';
 import { Featured } from '../components/featured';
+import { Popular } from '../components/popular';
 
 function HomePage() {
   return (
@@ -18,6 +19,7 @@ function HomePage() {
       <div className='container mx-auto'>
         <Categories/>
         <Featured/>
+        <Popular/>
       </div>
 
     </>

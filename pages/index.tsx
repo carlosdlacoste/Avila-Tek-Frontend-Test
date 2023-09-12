@@ -7,6 +7,7 @@ import { Categories } from '../components/categories';
 import { Featured } from '../components/featured';
 import { Popular } from '../components/popular';
 import { Latest } from '../components/latest';
+import { Services } from '../components/services';
 
 function HomePage() {
   return (
@@ -22,6 +23,7 @@ function HomePage() {
         <Featured/>
         <Popular/>
         <Latest/>
+        <Services/>
       </div>
 
     </>

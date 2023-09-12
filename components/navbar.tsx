@@ -37,7 +37,7 @@ export const NavBar = () => {
         </div>
       </nav>
     <nav className="bg-white">
-        <div className="max-w-screen-xl px-2 py-2 mx-auto">
+        <div className="max-w-screen-xl px-2 pt-2 mx-auto">
             <div className="flex  gap-x-[300px] items-center">
                 <svg width="170" height="46" viewBox="0 0 170 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <rect width="170" height="46" fill="url(#pattern0)"/>
